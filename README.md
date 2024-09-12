@@ -4,34 +4,6 @@
 
 This project provides a JavaScript implementation of a Binary Search Tree (BST) with various functionalities, including node insertion, deletion, traversal methods, height and depth calculations, balance checking, and rebalancing. The tree structure is designed to support efficient searching, insertion, and deletion operations.
 
-## Classes
-
-### `Node`
-
-Represents a node in the binary search tree.
-
-#### Constructor
-
-- `Node(data)`
-  - **Parameters**:
-    - `data`: The value stored in the node.
-
-#### Properties
-
-- `data`: The value stored in the node.
-- `left`: Reference to the left child node.
-- `right`: Reference to the right child node.
-
-### `Tree`
-
-Represents the binary search tree.
-
-#### Constructor
-
-- `Tree(arr)`
-  - **Parameters**:
-    - `arr`: An array of values to initialize the tree. Duplicates are removed, and the array is sorted before building the tree.
-
 #### Methods
 
 - **`insert(value)`**
